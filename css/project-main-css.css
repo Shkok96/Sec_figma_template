@@ -1,0 +1,113 @@
+.the-biggest {
+  position: relative;
+  width: 100%;
+}
+body {
+    margin: 0;
+  }
+/*
+@media (min-width: 768px) {
+  .the-biggest {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .the-biggest {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .the-biggest {
+    width: 1170px;
+  }
+}
+*/
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*start desktop-head style proparitos */
+
+.desktop .container {
+    width: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    {}
+
+.desktop-header {
+    background-color: blue;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    gap: 385px;
+    
+    
+    
+}
+
+  
+}
+
+.menuelements {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 70px; */
+    width: 100%;
+
+    
+}
+
+
+.menuelements > div {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logo > img {
+    width: 187px;
+    height: 187px;
+
+}
+
+.searchlogo > img {
+   width: 16px;
+   height: 16px;
+}
+/*end head style proparitos */
+/*start desktop style proparitos */
+.desktop {
+    margin-top: 76px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: red;
+}
+.hori1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: start;
+    background-color: blue;
+}
+
+/*end desktop style proparitos */
