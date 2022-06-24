@@ -1,0 +1,373 @@
+body {
+   
+    font-family: sans-serif;
+    padding: 20px;
+    position: relative;
+    /* background-color: red; */
+    background-image: url(/images/desktopbackground.png);
+    background-repeat: inherit;
+
+  }
+  .container {
+    width: 83.5%;
+    /* background-color: burlywood; */
+    margin-top: -24px;
+    margin-right: 148px;
+    margin-bottom: -85px;
+    margin-left: 89px;
+    padding: 20px;
+    /* max-width: 500px; */
+    /* position: relative; */
+    background-image: url(/images/desktopbackground.png);
+    background-repeat: inherit;
+    /* header */
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+    gap: 385px;
+    /* position: fixed; */
+  }
+  .searchlogo > img {
+    width: 16px;
+    height: 16px;
+  }
+  .logo > img {
+    width: 187px;
+    height: 187px;
+  }
+  .menuelements {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 43.82%;
+  }
+  
+  .menuelements > div {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  /* end header  */
+
+  /* start main */
+
+  main {
+   
+    margin-left: 115px;
+    margin-right: 185px;
+    display: flex;
+    flex-direction: column;
+    width: 79.2%;
+    
+    
+  
+    /* background-color: orange; */
+    justify-content: center;
+  
+  }
+  .first {
+    display: flex;
+    width: 100%;
+    gap: 92px;
+    /* background-color: greenyellow; */
+  }
+  .bigpic > img {
+    height: 490px;
+    width: 372px;
+    margin-top: 37px;
+    margin-left: 57px;
+  }
+  .bigtext {
+    width: 54.29%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+
+    
+  }
+
+  .text1 {
+    width: 100%;
+  }
+
+.text1 > p {
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border-radius: nullpx;
+}
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 14px; */
+    /* width: 230px;
+    height: 65px; */
+  }
+  .text2-1 > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    width: 108px;
+    left: 641px;
+    top: 579px;
+    border-radius: nullpx;
+    color: #9e9a9a;
+    margin-bottom: 0px;
+  }
+  
+  .text2-2 > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    width: 215px;
+    left: 641px;
+    top: 607px;
+    border-radius: nullpx;
+    color: #9e9a9a;
+    margin-top: 0px;
+  }
+
+  
+.text2 > input {
+    /* height: 65px;
+    width: 230px;
+    left: 641px;
+    top: 645px; */
+    border-radius: 5px;
+    background: #444444;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    /* text-align: left;*/
+    height: 65px;
+  }
+
+
+  .second {
+    width: 25.2%;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+   
+    /* background-color: coral; */
+
+  }
+
+  
+
+  
+  .picsmall > img {
+    height: 94px;
+    width: 90px;
+    /* left: 175px;
+    top: 740px; */
+    border-radius: 10px;
+  }
+  
+  .name {
+    width: 45.4%;
+    /* height: 17px; */
+  }
+  .name > span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .name > div {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a8a8a8;
+  }
+  .third {
+    width: 24.6%;
+    margin-left: 60px;
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    /* background-color: white; */
+    position: relative;
+  }
+
+  .optiontobuy > div {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .Buy {
+    background: #d3d3d3;
+    /* height: 49px;
+    width: 84px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 49px;
+  }
+  
+  .Sell,
+  .Rent {
+    /* height: 49px;
+    width: 84px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 49px;
+  }
+ 
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  /* end main  */
+/* position absolute element  */
+  
+.flyrectangle {
+    height: 202px;
+    width: 183px;
+    left: 244px;
+    top: 208px;
+    border-radius: [object Object]px;
+    position: absolute;
+  }
+  .flytext {
+    height: 103px;
+    width: 134px;
+    left: 268px;
+    top: 257px;
+    border-radius: nullpx;
+    position: absolute;
+  }
+  .flytext > p {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .bigbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 980px;
+    left: 304px;
+    width: 74.5%;
+    height: 161px;
+    /* background-color: green; */
+
+  }
+  
+  .no1,
+  .no2,
+  .no3, 
+  .no4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    border-right-style:solid; 
+  
+    border: 1px solid;
+    width: 20%;
+    height: 100%;
+  
+  border-image-source: linear-gradient(180deg, #000000 -164.62%, rgba(157, 155, 155, 0) 289.15%);
+  
+  
+  }
+  
+  .no1-1,
+  .no2-1,
+  .no3-1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .no1-2,
+  .no2-2,
+  .no3-2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+   color: #bab9b9;
+  }
+  
+  
+  .bigbox .no4 input {
+      width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  
+  background: #444444;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  
+  }
+
+  /* end position absolute  */
+  
+
+  
+ 
+  
+  /* FOOTER */
+  
